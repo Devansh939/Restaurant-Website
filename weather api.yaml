@@ -30,8 +30,6 @@ externalDocs:
 paths:
   /getweather:
     get:
-      tags:
-        - Weather
       description: Use city and state to retrieve current US weather information.
       operationId: getweather
       parameters:
@@ -75,7 +73,7 @@ paths:
           description: internal server error
       summary: Gets current weather information for a US city and state
       tags:
-        - Weather by City and State
+        - Weather
 components:
   schemas:
     Weather:
